@@ -7,7 +7,7 @@ using namespace cv;
 int main(int argc, char** argv)
 {	
 	Mat dst0, dst;
-	
+
 	Mat image = Mat::zeros(400, 400, CV_8UC3);
 	const float kernelData0[] = { 1, 0,
 		0, -1
